@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a737648626d7b9419590056907ecb76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 50
+  rotationSpeed: 100
 --- !u!4 &14988031
 Transform:
   m_ObjectHideFlags: 0
@@ -457,6 +457,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 7203523451560544630, guid: bc5696eb86f17224d9596cb4113adaf2, type: 3}
+  enemyCount: 0
+  waveNumber: 1
+  powerupPrefab: {fileID: 7890946327447100284, guid: c709ab3b5d5099c409d7d1f4d73e2d09, type: 3}
 --- !u!135 &1289842100
 SphereCollider:
   m_ObjectHideFlags: 0
